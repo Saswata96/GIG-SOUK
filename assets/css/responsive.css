@@ -1,0 +1,934 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
+
+
+/* X-Large devices (large desktops, less than 1500px) */
+@media(max-width:1800px){
+    .asked-questions-section {
+        margin: 432px 0px 150px 0px;
+    }
+}
+@media(max-width:1600px){
+    .gig-souk-show-case-section::after {
+        left: -113px;
+    }
+    .footer {
+        padding: 146px 0px 40px 0px;
+    }
+}
+@media (max-width: 1440.98px) {
+
+    /* for mobile menu responsive section responsive css start */
+    .header .menu-link {
+        font-size: 16px;
+    }
+
+    .header-phone-number-section a {
+        font-size: 14px;
+    }
+
+    .header-get-call-section a {
+        font-size: 14px;
+    }
+
+    .header-phone-number-section {
+        margin: 0px 20px;
+    }
+
+    /* for mobile menu responsive section responsive css end */
+    .main-banner-text h1 {
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .main-banner-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .main-banner-image {
+        height: 798px;
+    }
+    .brand img {
+        width: 100px;
+    }
+    .about-gig-souk-App {
+        margin: 60px 0px;
+    }
+    .about-gig-souk-title-text h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .about-gig-souk-pera-section p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .about-gig-card-text h5 {
+        font-size: 20px;
+    }
+    .about-gig-card-text p {
+        font-size: 15px;
+    }
+    .about-gig-souk-title-text p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .gig-souk-show-case-section::after {
+        left: -137px;
+    }
+    .circle-icon2 {
+        width: 12px;
+        height: 12px;
+    }
+    .circle-icon1 {
+        width: 12px;
+        height: 12px;
+    }
+    .circle-icon1 {
+        width: 12px;
+        height: 12px;
+    }
+    .asked-questions-section {
+        padding: 60px 0px;
+    }
+    .accordion-total-section button {
+        font-size: 18px;
+    }
+    .accordion-total-section .accordion-content p {
+        font-size: 15px;
+    }
+    .user-text-section h5 {
+        font-size: 19px;
+    }
+    .user-text-section p {
+        font-size: 16px;
+    }
+    .user-description-text-section p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .user-five-star-section i {
+        font-size: 16px;
+    }
+    .user-section {
+        margin: 60px 0px;
+    }
+    .start-better-section {
+        padding: 60px 0px;
+    }
+    .footer {
+        padding: 100px 0px 40px 0px;
+    }
+    .footer-wave-image-div {
+        top: -163px;
+    }
+    .start-better-left-side-text-section h4 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .start-better-left-side-text-section p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .footer-link-ul ul li a {
+        font-size: 16px;
+    }
+    .footer-line-div {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .follow-us-title-text h5 {
+        font-size: 20px;
+    }
+    .footer-social-media-link a {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-social-media-link i {
+        font-size: 16px;
+    }
+    .copyright-text p {
+        font-size: 15px;
+    }
+    .terms-Privacy-Policy-link ul li a {
+        font-size: 15px;
+    }
+    .footer-gig-souk-logo img {
+        height: 130px;
+    }
+    .point h3 {
+        font-size: 33px;
+    }
+    .gig-souk-show-case-left-side-image-section img{
+        height: 634px;
+        object-fit: contain;
+    }
+    .gig-souk-show-case-left-side-image-section {
+        text-align: center;
+    }
+    .philosophie .point {
+        left: 50%;
+        width: 259px;
+    }
+    .gig-souk-show-case-section {
+        margin: 46px 0px !important;
+        position: relative;
+        z-index: 2;
+    }
+    .mobile-app-inner-image img {
+        height: 550px;
+        width: 257px !important;
+    }
+    .iphone-mobile-image {
+        padding: 20px;
+    }
+    .banner-mobile-image {
+        margin-top: 48px;
+    }
+    .mobile-top-png {
+        top: 53px;
+    }
+    .mobile-inner-section {
+        width: 420px;
+    }
+    .gig-souk-show-case-section {
+        top: 74px !important;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .main-banner-text h1 {
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .main-banner-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .main-banner-image {
+        height: 787px;
+    }
+    .brand img {
+        width: 100px;
+    }
+    .about-gig-souk-App {
+        margin: 60px 0px;
+    }
+    .about-gig-souk-title-text h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .about-gig-souk-pera-section p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .about-gig-card-text h5 {
+        font-size: 20px;
+    }
+    .about-gig-card-text p {
+        font-size: 15px;
+    }
+    .about-gig-souk-title-text p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .gig-souk-show-case-section::after {
+        left: -137px;
+    }
+    .circle-icon2 {
+        width: 12px;
+        height: 12px;
+    }
+    .circle-icon1 {
+        width: 12px;
+        height: 12px;
+    }
+    .circle-icon1 {
+        width: 12px;
+        height: 12px;
+    }
+    .asked-questions-section {
+        padding: 60px 0px;
+    }
+    .accordion-total-section button {
+        font-size: 18px;
+    }
+    .accordion-total-section .accordion-content p {
+        font-size: 15px;
+    }
+    .user-text-section h5 {
+        font-size: 19px;
+    }
+    .user-text-section p {
+        font-size: 16px;
+    }
+    .user-description-text-section p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .user-five-star-section i {
+        font-size: 16px;
+    }
+    .user-section {
+        margin: 60px 0px;
+    }
+    .footer-wave-image-div {
+        top: -120px;
+    }
+    .mobile-app-inner-image img {
+        width: 248px !important;
+        height: 515px;
+        /* display: initial !important; */
+        object-fit: contain;
+        border-radius: 14px;
+    }
+    .mobile-inner-section {
+        width: 410px;
+    }
+    .philosophie .point {
+        left: 50%;
+    }
+    .banner-mobile-image {
+        padding: 19px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* for mobile menu responsive section responsive css start */
+    .header .menu-link {
+        padding: 0px 12px;
+    }
+    .header-get-call-section {
+        margin-left: 94px;
+    }
+    .header .menu-item {
+        margin: 0px 0px;
+    }
+
+    /* for mobile menu responsive section responsive css end */
+    .main-banner-image {
+        height: 700px;
+    }
+    .main-banner-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main-banner-text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .main-banner-btn {
+        margin-top: 0px;
+    }
+    .banner-mobile-image {
+        margin-top: 194px;
+    }
+    .about-gig-souk-title-text h3 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .about-gig-souk-pera-section p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .about-gig-card-text h5 {
+        font-size: 18px;
+    }
+    .about-gig-card-text p {
+        font-size: 14px;
+    }
+    .gig-souk-show-case-section::after {
+        left: -191px;
+    }
+    .about-gig-souk-title-text p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .about-gig-souk-App {
+        margin: 130px 0px 30px 0px;
+    }
+    .asked-questions-section {
+        padding: 40px 0px;
+    }
+    .asked-questions-section {
+        margin: 373px 0px 30px 0px;
+    }
+    .accordion-total-section .accordion-content p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .user-section {
+        margin: 30px 0px;
+    }
+    .user-testimonial-section {
+        margin-top: 30px;
+    }
+    .start-better-left-side-text-section h4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .start-better-left-side-text-section p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .start-better-section {
+        padding: 40px 0px;
+    }
+    .footer-link-ul ul li a {
+        font-size: 15px;
+    }
+    .footer-gig-souk-logo img {
+        height: 100px;
+    }
+    .follow-us-title-text h5 {
+        font-size: 18px;
+    }
+    .start-better-left-side-text-section {
+        padding-top: 98px;
+    }
+    .footer-wave-image-div {
+        top: -103px;
+    }
+    .mobile-inner-section {
+        width: 430px;
+    }
+    .mobile-app-inner-image img {
+        width: 265px !important;
+        height: 558px;
+         object-fit: initial;
+    }
+    .banner-mobile-image {
+        padding: 0px;
+    }
+    .philosophie .point {
+
+        left: 50%;
+
+    }
+    .point h4 {
+        font-size: 22px;
+        margin-bottom: 5px;
+        line-height: 34px;
+    }
+    .point h6{
+        font-size: 17px;
+    }
+    .point p {
+        line-height: 23px;
+        font-size: 13px;
+    }
+    .iphone-mobile-image {
+        padding: 0px;
+    }
+    .mobile-top-png {
+        top: 30px;
+    }
+}
+
+@media (max-width: 1198.98px) {
+
+    /* for mobile menu responsive section responsive css start */
+    .header .menu-item {
+        display: block;
+    }
+
+    .menu-section {
+        display: block;
+    }
+
+    .header .menu-link {
+        display: block;
+        padding: 9px 15px;
+        font-size: 18px;
+    }
+
+    .header .menu-item {
+        margin: 0px 0px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .header-get-call-section {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .header-phone-number-section a {
+        display: none;
+    }
+
+    .responsive-phone-icon {
+        display: block;
+        margin-right: 15px;
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        background: #32CD32;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .responsive-phone-icon:hover {
+        color: #fff;
+    }
+
+    .responsive-phone-icon i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .burger-phone-icon-section {
+        display: flex;
+        align-items: center;
+    }
+    .header .menu-link {
+        color: #000;
+    }
+    .header-get-call-section {
+        margin-left: 0px;
+    }
+    .header-get-call-section a {
+        background:  #275BE2;
+        border-radius: 25px;
+        color: #fff;
+        padding: 12px 30px;
+        transition: 0.6s ease all;
+        font-size: 16px;
+    }
+    .active-header-link {
+        color: #275BE2 !important;
+    }
+    .header .navbar {
+        padding: 0.75rem 12px;
+    }
+    /* for mobile menu responsive section responsive css end */
+}
+@media(max-width:1153px){
+    .gig-souk-show-case-section::after {
+        display: none;
+    }
+    .asked-questions-section {
+        margin: 263px 0px 30px 0px;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .main-banner-image {
+        height: 550px;
+    }
+    .main-banner-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-banner-text p {
+        font-size: 14px;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+    .about-gig-souk-title-text h3 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .about-gig-souk-pera-section p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .about-gig-souk-three-card-section {
+        margin-top: 30px;
+    }
+    .gig-souk-show-case-section::after {
+        display: none;
+    }
+    .about-gig-souk-title-text p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .gig-souk-show-case-section {
+        margin: 60px 0px 30px 0px;
+    }
+    .asked-questions-section {
+        margin: 190px 0px 30px 0px;
+    }
+    .start-better-left-side-text-section h4 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .start-better-left-side-text-section p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .start-better-section {
+        padding: 25px 0px;
+    }
+    .footer-gig-souk-logo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding: 73px 0px 22px 0px;
+    }
+    .copyright-text p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .terms-Privacy-Policy-link ul {
+        text-align: center;
+    }
+    .terms-Privacy-Policy-link ul li a {
+        font-size: 14px;
+    }
+    .footer-line-div {
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+    .footer-wave-image-div {
+        top: -90px;
+    }
+    .mobile-inner-section {
+        width: 407px;
+    }
+    .mobile-app-inner-image img {
+        width: 245px !important;
+        height: 519px !important;
+    }
+    .gig-souk-show-case-left-side-image-section img{
+        width: 100%;
+        height: auto;
+    }
+    .philosophie .point {
+        left: 50%;
+        width: 255px;
+    }
+    .gig-souk-show-case-section {
+        top: 62px !important;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .banner-mobile-image img{
+        height: 316px;
+        object-fit: contain;
+    }
+    .banner-mobile-image {
+        margin-top: 0px;
+    }
+    .home-page-banner-inner-section {
+        top: 66%;
+    }
+    .main-banner-text{
+        text-align: center;
+    }
+    .mobile-app-link-image{
+        text-align: center;
+    }
+    .main-banner-btn-row-section{
+        justify-content: center;
+    }
+    .about-gig-souk-learn-more-btn {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .about-gig-souk-App {
+        margin: 40px 0px 30px 0px;
+    }
+    .card-total-section {
+        margin-bottom: 22px;
+    }
+    .gig-souk-show-case-left-side-image-section {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .gig-souk-show-case-left-side-image-section img{
+        height: 522px;
+        object-fit: contain;
+    }
+    .gig-souk-show-case-text{
+        text-align: center;
+    }
+    .gig-souk-circle {
+        justify-content: center;
+    }
+    .accordion-total-section button {
+        font-size: 15px;
+    }
+    .accordion-total-section .accordion-content p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .about-gig-souk-title-text h3 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .about-gig-card-icon-image img {
+        width: 65px;
+        height: 65px;
+    }
+    .gig-souk-show-case-section {
+        margin: 30px 0px 30px 0px !important;
+    }
+    .asked-questions-section {
+        margin: 474px 0px 30px 0px;
+    }
+    .main-banner-text h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .accordion-total-section .gig-accordion-item {
+        margin-bottom: 17px;
+    }
+    .user-image img {
+        height: 90px;
+    }
+    .user-text-section {
+        margin-top: 20px;
+    }
+    .user-text-section h5 {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .user-text-section p {
+        font-size: 13px;
+    }
+    .user-description-text-section p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .user-five-star-section i {
+        font-size: 14px;
+    }
+    .user-testimonial-section {
+        margin-top: 15px;
+    }
+    .for-desktop{
+        display: none;
+    }
+    .for-responsive{
+        display: block;
+    }
+    .start-better-section-right-image {
+        text-align: center;
+    }
+    .start-better-section-right-image img{
+        height: 327px;
+    }
+    .start-better-left-side-text-section {
+        padding-top: 20px;
+        padding-bottom: 80px;
+        text-align: center;
+
+    }
+    .footer-wave-image-div {
+        top: -90px;
+    }
+    .follow-us-section{
+        text-align: center;
+        margin-top: 22px;
+    }
+    .footer-social-media-link {
+        margin-top: 16px;
+    }
+    .footer-support-link{
+        padding-left: 70px;
+    }
+    .start-better-left-side-text-section h4 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .user-section {
+        margin-bottom: 44px !important;
+    }
+    .start-your-free-trial-btn{
+        text-align: center;
+    }
+    .mobile-app-inner-image img {
+        width: 135px !important;
+        height: 290px !important;
+    }
+    .mobile-top-png img{
+        height: 10px !important;
+        width: 58px;
+    }
+    .mobile-top-png {
+        top: 16px;
+    }
+    .mobile-inner-section {
+        width: 297px;
+    }
+    .mobile-inner-image-slider .owl-stage-outer {
+        border-radius: 13px;
+    }
+    .philosophie .point {
+        width: 206px;
+    }
+    .pin-spacer{
+        margin: -90px 0px !important;
+    }
+}
+@media(max-width:580px){
+    .footer-wave-image-div {
+        top: -50px;
+    }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .main-banner-text h1 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .banner-mobile-image img {
+        height: 255px;
+    }
+    .main-banner-image {
+        height: 500px;
+    }
+    .main-banner-image img {
+        height: 500px;
+    }
+    .home-page-banner-inner-section {
+        top: 70%;
+    }
+    .about-gig-souk-App {
+        margin: 58px 0px 30px 0px;
+    }
+    .about-gig-souk-title-text h3 {
+        font-size: 20px;
+    }
+    .card-total-section {
+        padding: 22px;
+    }
+    .asked-questions-faq-section {
+        margin-top: 17px;
+    }
+    .user-slider-card-section {
+        padding: 22px;
+    }
+    .banner-mobile-image {
+        margin-top: 13px;
+    }
+    .brand img {
+        width: 80px;
+    }
+    .user-text-section {
+        margin-top: 33px;
+    }
+    .footer-support-link {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .footer-link-ul{
+        text-align: center;
+    }
+    .start-better-left-side-text-section {
+        padding-bottom: 44px;
+    }
+    .start-better-section-right-image img {
+        height: 220px;
+    }
+    .start-better-section {
+        padding: 0px 0px;
+    }
+    .start-better-left-side-text-section {
+        padding-bottom: 65px;
+    }
+    .start-better-left-side-text-section h4 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .start-your-free-trial-btn a {
+        font-size: 14px;
+    }
+    .footer-link-ul ul li a {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 60px 0px 22px 0px;
+    }
+    .accordion-total-section button {
+        font-size: 14px;
+    }
+    .accordion-total-section button .accordion-title {
+        width: 300px;
+        display: inline-block;
+        padding: 0px;
+    }
+    .mobile-inner-section {
+        width: 268px;
+    }
+    .mobile-app-inner-image img {
+        width: 102px !important;
+        height: 236px !important;
+        object-fit: cover;
+    }
+    .mobile-top-png {
+        top: 10px;
+    }
+    .asked-questions-section {
+        margin: 476px 0px 30px 0px;
+    }
+    .gig-souk-show-case-left-side-image-section img {
+        height: 400px;
+    }
+    .philosophie .point {
+        width: 160px;
+    }
+    .point h4 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .point h6{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .point p {
+        line-height: 20px;
+        font-size: 11px;
+    }
+    .progress-wrap {
+        bottom: 50px;
+        right: 10px;
+        height: 35px;
+        width: 35px;
+        background: #427efa;
+    }
+    .back-to-top-icon i {
+        font-size: 13px;
+        color: #fff;
+    }
+    
+}
+@media(max-width:411px){
+    .footer-wave-image-div {
+        top: -36px;
+    }
+    .footer-gig-souk-logo img {
+        height: 75px;
+    }
+    .footer-link-ul ul li {
+        margin-bottom: 16px;
+    }
+}
